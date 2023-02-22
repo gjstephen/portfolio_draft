@@ -1,16 +1,50 @@
 .tile {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 0.15rem 1fr;
   // display: flex;
   // justify-content: space-around;
-  gap: 10rem;
+  gap: 2rem;
   width: 80%;
   margin: 0 auto;
   text-align: left;
 }
 
-.tile-left {
-  justify-content: end;
-  // width: fit-content;
-  margin-left: 20rem;
+.info {
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.2rem 0.5rem rgb(98, 96, 96);
+  margin-bottom: 2rem;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.timeline {
+  background-color: black;
+  // width: 2px;
+  height: 100%;
+  z-index: -1;
+  position: relative;
+  // left: 50%
+}
+
+.timeline-dot {
+  background-color: black;
+  width: 0.8rem;
+  height: 0.8rem;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+
+.education, .experience {
+  margin-bottom: 1rem;
 }

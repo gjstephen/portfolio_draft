@@ -1,8 +1,6 @@
 import './style/navBar.scss'
 import { NavLink } from 'react-router-dom'
 
-let scrollLock = false
-
 function NavBar() {
   return (
     <nav className="nav-bar">
@@ -15,7 +13,6 @@ function NavBar() {
             Home
           </NavLink>
         </li>
-        <li>About me</li>
         <li>
           <NavLink 
             className='nav-link' 
@@ -40,7 +37,14 @@ function NavBar() {
             Projects
           </NavLink>
         </li>
-        <li>Resume</li>
+        <li>
+          <NavLink 
+            className='nav-link' 
+            to='/portfolio/resume'
+          >
+            Resume
+          </NavLink>
+        </li>
         <li>
           <NavLink 
             className='nav-link' 
