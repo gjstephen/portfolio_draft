@@ -11,148 +11,156 @@ function Projects() {
       <section className="project-list">
         <div className="project">
             <div>
-              <h3>Simple Accounting App - GA</h3>
-              <hr />
+              <section className='project-wrapper'>
+                <h3>Simple Accounting App - GA</h3>
 
-              <ul className="list">
-                <li>
-                  <a href="https://accounting-app.fly.dev/" target="_blank" rel="noreferrer">
-                    <button>
-                      <img className='gh-logo' src={websiteLogo} alt="gitHub Logo" />
-                      <p>Live Site</p>
-                    </button>
-                  </a>
-                </li>
+                <ul className="list">
+                  <li className='tech'>React.js</li>
+                  <li className='tech'>Express.js</li>
+                  <li className='tech'>PSQL</li>
+                </ul>
 
-                <li>
-                  <a href="https://github.com/gjstephen/accounting-app-react" target="_blank" rel="noreferrer">
-                    <button>
-                      <img className='gh-logo' src={gitHubLogo} alt="gitHub Logo" />
-                      <p>GitHub</p>
-                    </button>
-                  </a>
-                </li>
-              </ul>
+                <p className='project-text'>This is a simple accounting app that allows users to record transactions as manual journals and view them in a variety of reports.</p>
 
+                <hr />
+                <ul className="list">
+                  <li>
+                    <a href="https://accounting-app.fly.dev/" target="_blank" rel="noreferrer">
+                      <button>
+                        <img className='gh-logo' src={websiteLogo} alt="gitHub Logo" />
+                        <p>Live Site</p>
+                      </button>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://github.com/gjstephen/accounting-app-react" target="_blank" rel="noreferrer">
+                      <button>
+                        <img className='gh-logo' src={gitHubLogo} alt="gitHub Logo" />
+                        <p>GitHub</p>
+                      </button>
+                    </a>
+                  </li>
+                </ul>
+              </section>
+            </div>
+
+            <aside>
               <img src={accountingImage} alt="" />
-
-              <p className='project-text'>This is a simple accounting app that allows users to record transactions as manual journals and them in a variety of reports.</p>
-            </div>
-
-            <hr />
-
-            <ul className="list">
-              <li>React.js</li>
-              <li>Express.js</li>
-              <li>PSQL</li>
-            </ul>
+            </aside>
         </div>
 
         <div className="project">
             <div>
-              <h3>I Chews You - GA</h3>
-              <hr />
+              <section className='project-wrapper'>
+                <h3>I Chews You - GA</h3>
 
-              <ul className="list">
-                <li>
-                  <a href="https://github.com/gjstephen/I-Chews-You---Food-App" target="_blank" rel="noreferrer">
-                    <button>
-                      <img className='gh-logo' src={gitHubLogo} alt="gitHub Logo" />
-                      <p>GitHub</p>
-                    </button>
-                  </a>
-                </li>
-              </ul>
+                <ul className="list">
+                  <li className='tech'>Express.js</li>
+                  <li className='tech'>PSQL</li>
+                </ul>
 
+                <p className='project-text'>This was a group project that incorporated the Spoonacular API to allow users to search for and leave comments on recipes.</p>
+
+                <hr />
+                <ul className="list">
+                  <li>
+                    <a href="https://github.com/gjstephen/I-Chews-You---Food-App" target="_blank" rel="noreferrer">
+                      <button>
+                        <img className='gh-logo' src={gitHubLogo} alt="gitHub Logo" />
+                        <p>GitHub</p>
+                      </button>
+                    </a>
+                  </li>
+                </ul>
+              </section>
+            </div>
+
+            <aside>
               <img src={iChewsYouImage} alt="" />
-
-              <p className='project-text'>This was a group project that incorporated the Spoonacular API to allow users to search for and leave comments on recipes.</p>
-            </div>
-
-            <hr />
-
-            <ul className="list">
-              <li>Express.js</li>
-              <li>PSQL</li>
-            </ul>
+            </aside>
         </div>
 
         <div className="project">
             <div>
-              <h3>Recipe Keeper - GA</h3>
-              <hr />
+              <section className='project-wrapper'>
+                <h3>Recipe Keeper - GA</h3>
 
-              <ul className="list">
-                <li>
-                  <a href="https://recipe-keeper.fly.dev/" target="_blank" rel="noreferrer">
-                    <button>
-                      <img className='gh-logo' src={websiteLogo} alt="gitHub Logo" />
-                      <p>Live Site</p>
-                    </button>
-                  </a>
-                </li>
+                <ul className="list">
+                  <li className='tech'>Ruby</li>
+                  <li className='tech'>Sinatra</li>
+                  <li className='tech'>PSQL</li>
+                </ul>
 
-                <li>
-                  <a href="https://github.com/gjstephen/recipe_keeper" target="_blank" rel="noreferrer">
-                    <button>
-                      <img className='gh-logo' src={gitHubLogo} alt="gitHub Logo" />
-                      <p>GitHub</p>
-                    </button>
-                  </a>
-                </li>
-              </ul>
+                <p className='project-text'>This app allows users to create and manage their own recipe collection, as well as explore those of other users.</p>
 
+                <hr />
+                <ul className="list">
+                  <li>
+                    <a href="https://recipe-keeper.fly.dev/" target="_blank" rel="noreferrer">
+                      <button>
+                        <img className='gh-logo' src={websiteLogo} alt="gitHub Logo" />
+                        <p>Live Site</p>
+                      </button>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://github.com/gjstephen/recipe_keeper" target="_blank" rel="noreferrer">
+                      <button>
+                        <img className='gh-logo' src={gitHubLogo} alt="gitHub Logo" />
+                        <p>GitHub</p>
+                      </button>
+                    </a>
+                  </li>
+                </ul>
+              </section>
+            </div>
+
+            <aside>
               <img src={recipeKeeperImage} alt="" />
-
-              <p className='project-text'>This app allows users to create and manage their own recipe collection, as well as explore those of other users.</p>
-            </div>
-
-            <hr />
-
-            <ul className="list">
-              <li>Ruby</li>
-              <li>Sinatra</li>
-              <li>PSQL</li>
-            </ul>
+            </aside>
         </div>
 
         <div className="project">
             <div>
-              <h3>Tic Tac Toe - GA</h3>
-              <hr />
+              <section className='project-wrapper'>
+                <h3>Tic Tac Toe - GA</h3>
 
-              <ul className="list">
-                <li>
-                  <a href="https://gjstephen.github.io/tic-tac-toe/" target="_blank" rel="noreferrer">
-                    <button>
-                      <img className='gh-logo' src={websiteLogo} alt="gitHub Logo" />
-                      <p>Live Site</p>
-                    </button>
-                  </a>
-                </li>
+                <ul className="list">
+                  <li className='tech'>JavaScript</li>
+                  <li className='tech'>HTML 5</li>
+                  <li className='tech'>CSS</li>
+                </ul>
 
-                <li>
-                  <a href="https://github.com/gjstephen/tic-tac-toe" target="_blank" rel="noreferrer">
-                    <button>
-                      <img className='gh-logo' src={gitHubLogo} alt="gitHub Logo" />
-                      <p>GitHub</p>
-                    </button>
-                  </a>
-                </li>
-              </ul>
+                <p className='project-text'>Feel free to play a classic game of Tic Tac Toe where you are able to select from a variety of themes.</p>
 
-              <img src={ticTacToeImage} alt="" />
+                <hr />
+                <ul className="list">
+                  <li>
+                    <a href="https://gjstephen.github.io/tic-tac-toe/" target="_blank" rel="noreferrer">
+                      <button>
+                        <img className='gh-logo' src={websiteLogo} alt="gitHub Logo" />
+                        <p>Live Site</p>
+                      </button>
+                    </a>
+                  </li>
 
-              <p className='project-text'>Feel free to play a classic game of Tic Tac Toe where you are able to select from a variety of themes.</p>
+                  <li>
+                    <a href="https://github.com/gjstephen/tic-tac-toe" target="_blank" rel="noreferrer">
+                      <button>
+                        <img className='gh-logo' src={gitHubLogo} alt="gitHub Logo" />
+                        <p>GitHub</p>
+                      </button>
+                    </a>
+                  </li>
+                </ul>
+              </section>
             </div>
 
-            <hr />
-
-            <ul className="list">
-              <li>JavaScript</li>
-              <li>HTML 5</li>
-              <li>CSS</li>
-            </ul>
+            <aside>
+              <img src={ticTacToeImage} alt="" />
+            </aside>
         </div>
       </section>
     </div>
