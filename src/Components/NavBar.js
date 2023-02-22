@@ -10,7 +10,7 @@ function NavBar() {
         <li>
           <NavLink 
             className='nav-link'
-            to='/'
+            to='/portfolio/'
           >
             Home
           </NavLink>
@@ -19,7 +19,7 @@ function NavBar() {
         <li>
           <NavLink 
             className='nav-link' 
-            to='/experience'
+            to='/portfolio/experience'
           >
             Work Experience
           </NavLink>
@@ -27,7 +27,7 @@ function NavBar() {
         <li>
           <NavLink 
             className='nav-link' 
-            to='/education'
+            to='/portfolio/education'
           >
             Education
           </NavLink>
@@ -35,7 +35,7 @@ function NavBar() {
         <li>
           <NavLink 
             className='nav-link' 
-            to='/projects'
+            to='/portfolio/projects'
           >
             Projects
           </NavLink>
@@ -44,7 +44,7 @@ function NavBar() {
         <li>
           <NavLink 
             className='nav-link' 
-            to='/contact-me'
+            to='/portfolio/contact-me'
           >
             Contact Me
           </NavLink>
