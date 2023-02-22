@@ -1,0 +1,16 @@
+.tile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  // display: flex;
+  // justify-content: space-around;
+  gap: 10rem;
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.tile-left {
+  justify-content: end;
+  // width: fit-content;
+  margin-left: 20rem;
+}
