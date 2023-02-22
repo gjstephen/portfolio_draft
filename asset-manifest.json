@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "//gjstephen.github.io/portfolio/static/css/main.47182136.css",
-    "main.js": "//gjstephen.github.io/portfolio/static/js/main.cadb57ff.js",
-    "static/js/787.1ed0c42c.chunk.js": "//gjstephen.github.io/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/i-chews-you.PNG": "//gjstephen.github.io/portfolio/static/media/i-chews-you.279e476dc9748057cf6d.PNG",
-    "static/media/recipe-keeper.PNG": "//gjstephen.github.io/portfolio/static/media/recipe-keeper.e4e22d613d6e6bb16a3a.PNG",
-    "static/media/website-logo.png": "//gjstephen.github.io/portfolio/static/media/website-logo.087ee1d8eb88a5b077c1.png",
-    "static/media/tic-tac-toe.PNG": "//gjstephen.github.io/portfolio/static/media/tic-tac-toe.5abaa24196a8581a866f.PNG",
-    "static/media/accounting-app-photo.PNG": "//gjstephen.github.io/portfolio/static/media/accounting-app-photo.6ee5d60cdf3be5d97978.PNG",
-    "index.html": "//gjstephen.github.io/portfolio/index.html",
-    "main.47182136.css.map": "//gjstephen.github.io/portfolio/static/css/main.47182136.css.map",
-    "main.cadb57ff.js.map": "//gjstephen.github.io/portfolio/static/js/main.cadb57ff.js.map",
-    "787.1ed0c42c.chunk.js.map": "//gjstephen.github.io/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.47182136.css",
+    "main.js": "/portfolio/static/js/main.20d35dc8.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/i-chews-you.PNG": "/portfolio/static/media/i-chews-you.279e476dc9748057cf6d.PNG",
+    "static/media/recipe-keeper.PNG": "/portfolio/static/media/recipe-keeper.e4e22d613d6e6bb16a3a.PNG",
+    "static/media/website-logo.png": "/portfolio/static/media/website-logo.087ee1d8eb88a5b077c1.png",
+    "static/media/tic-tac-toe.PNG": "/portfolio/static/media/tic-tac-toe.5abaa24196a8581a866f.PNG",
+    "static/media/accounting-app-photo.PNG": "/portfolio/static/media/accounting-app-photo.6ee5d60cdf3be5d97978.PNG",
+    "index.html": "/portfolio/index.html",
+    "main.47182136.css.map": "/portfolio/static/css/main.47182136.css.map",
+    "main.20d35dc8.js.map": "/portfolio/static/js/main.20d35dc8.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47182136.css",
-    "static/js/main.cadb57ff.js"
+    "static/js/main.20d35dc8.js"
   ]
 }
