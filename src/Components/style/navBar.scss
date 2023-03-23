@@ -4,14 +4,41 @@
   padding-bottom: 0.5rem;
   color: white;
   position: fixed;
-  top: 0;
   width: 100%;
 }
 
-.nav-list {
+.mobile-nav {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  margin: 0.5rem;
+  
+  h2 {
+    margin: 0;
+  }
+
+}
+
+.menu-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  // h4 {
+  //   margin: 0;
+  // }
+  svg {
+    stroke: white;
+    fill: white
+  }
+}
+
+.home-btn {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: none;
   width: 90%;
   max-width: 700px;
   margin: 0 auto;
@@ -50,4 +77,63 @@ main {
   background-color: #8e989ec3;
   border-radius: 0.5rem;
   border-bottom: 0.15rem solid rgb(232, 79, 79);
+}
+
+@media (min-width: 800px) {
+  .nav-bar {
+    top: 0;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.bottom-nav {
+  color: white;
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+
+    a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      // align-content: center;
+    }
+  
+    svg {
+      stroke: white;
+      fill: white
+    }
+  }
+  
+}
+
+.nav-icon {
+  width: 2rem;
+  svg {
+    stroke: white;
+    fill: white
+  }
+}
+
+@media (max-width: 420px) {
+  .nav-bar {
+    bottom: 0;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
 }
