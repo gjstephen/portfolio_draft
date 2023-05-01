@@ -22,6 +22,9 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+  background-color: inherit;
+  border: none;
+  color: inherit;
 
   // h4 {
   //   margin: 0;
@@ -68,9 +71,41 @@
   }
 }
 
-
 main {
   margin-top: 4.5rem;
+}
+
+.drop-list {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 80px;
+  right: 10px;
+  list-style: none;
+  text-align: left;
+  background-color: #525a5fbb;
+  padding: 20px;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  hr {
+    width: 80%;
+  }
+}
+
+.drop-inactive {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.drop-active {
+  visibility: visible;
+  opacity: 1;
 }
 
 .active {
@@ -129,11 +164,15 @@ main {
 }
 
 @media (max-width: 420px) {
-  .nav-bar {
-    bottom: 0;
-  }
+  // .nav-bar {
+  //   bottom: 0;
+  // }
 
-  .mobile-nav {
-    display: none;
+  // .mobile-nav {
+  //   display: none;
+  // }
+
+
+  .drop-list {
   }
 }
