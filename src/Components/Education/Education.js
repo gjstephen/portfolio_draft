@@ -1,11 +1,11 @@
-// import './style/education.scss'
+import './education.scss'
 import { educationInformation } from './education-data'
 
 function Education() {
   const renderEducation = () => {
     return educationInformation.map((instance, index) => {
       return (
-        <section className="tile" key={index}>
+        <section className="tile-ed" key={index}>
           <div className='date-left'>
             <h3>{instance.course}</h3>
             <p>{instance.date}</p>

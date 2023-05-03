@@ -1,5 +1,5 @@
 import { educationInformation } from './Education/education-data'
-import './style/education.scss'
+// import './style/education.scss'
 
 function Resume() {
   const renderEducation = () => {

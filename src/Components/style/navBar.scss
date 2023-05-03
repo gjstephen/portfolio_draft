@@ -5,12 +5,13 @@
   color: white;
   position: fixed;
   width: 100%;
+  height: 2.5rem;
 }
 
 .mobile-nav {
   display: flex;
   justify-content: space-between;
-  margin: 0.5rem;
+  // margin: 0.5rem;
   
   h2 {
     margin: 0;

@@ -6,6 +6,8 @@ import ticTacToeImage from './tic-tac-toe.PNG'
 import gitHubLogo from '../images/github-logo.png'
 import websiteLogo from '../images/website-logo.png'
 
-const images = { accountingImage, iChewsYouImage, recipeKeeperImage, ticTacToeImage, gitHubLogo, websiteLogo }
+import backgroundImage from './background_image.jpg'
+
+const images = { accountingImage, iChewsYouImage, recipeKeeperImage, ticTacToeImage, gitHubLogo, websiteLogo, backgroundImage }
 
 export { images }
