@@ -3,7 +3,7 @@ body {
 }
 
 .project-page {
-  width: 70%;
+  // width: 70%;
   margin: 0 auto;
 }
 
@@ -18,12 +18,13 @@ body {
 }
 
 .project {
-  // width: 20rem;
+  // width: 25rem;
   width: 100%;
-  height: 18rem;
+  // height: 18rem;
   // border: 1px solid black;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   border-radius: 1rem;
   background-color: #fffefe;
   box-shadow: 0.2rem 0.3rem 1rem 0.5rem rgba(0, 0, 0, 0.352);
@@ -36,17 +37,18 @@ body {
   }
 
   .project-img {
-    min-width: 25rem;
-    max-width: 25rem;
-    min-height: 18rem;
-    max-height: 18rem;
+    min-width: 5rem;
+    // max-width: 25rem;
+    min-height: 100%;
+    // max-height: 18rem;
+    width: 100%;
     
     // height: 13rem;
     object-fit: cover;
     object-position: 0% 0%;
     // overflow: unset;
-    border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     left: 0;
   }
 
@@ -67,6 +69,9 @@ body {
     margin: 0;
     cursor: pointer;
     background-color: #fffefe;
+    white-space: nowrap;
+    text-overflow: nowrap;
+    overflow: hidden;
 
     p {
       font-size: 1rem;
@@ -86,11 +91,11 @@ body {
 }
 
 .project-wrapper {
-  display: grid;
+  // display: grid;
   // grid-template-rows: 1fr 1fr 6fr 0.2fr 1fr;
-  grid-template-rows: 1fr 3fr 1fr;
-  // display: flex;
-  // flex-direction: column;
+  // grid-template-rows: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   // justify-content: space-between;
   width: 95%;
   height: inherit;
@@ -116,12 +121,17 @@ body {
   list-style: none;
   display: flex;
   flex-direction: row;
-  // justify-content: start;
   gap: 2rem;
   padding-left: 0px;
   width: 90%;
   margin: 0;
   margin-bottom: 1rem;
+}
+
+.site-list {
+  gap: 0;
+  justify-content: space-between;
+  max-width: 15rem;
 }
 
 .tech {
@@ -142,8 +152,6 @@ body {
     display: grid;
     grid-template-columns: auto 25rem;
     border-radius: 1rem;
-    background-color: #fffefe;
-    box-shadow: 0.2rem 0.3rem 1rem 0.5rem rgba(0, 0, 0, 0.352);
     margin-bottom: 1.5rem;
     text-align: left;
   
@@ -163,7 +171,7 @@ body {
       object-position: 0% 0%;
       // overflow: unset;
       border-top-right-radius: 1rem;
-      border-bottom-right-radius: 1rem;
+      border-bottom-left-radius: 0;
       left: 0;
     }
   
@@ -199,6 +207,24 @@ body {
       width: 1.5rem;
       height: auto;
       margin: 0.2rem;
+    }
+  }
+
+  .project-wrapper {
+    display: grid;
+    // grid-template-rows: 1fr 1fr 6fr 0.2fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+    width: 95%;
+    height: inherit;
+    margin: 0 auto;
+    align-items: left;
+    align-content: left;
+  
+    hr {
+      width: 100%;
     }
   }
 

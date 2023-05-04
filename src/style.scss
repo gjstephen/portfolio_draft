@@ -1,8 +1,10 @@
-
+* {
+  box-sizing: border-box;
+}
 
 main {
   margin-top: 3.5rem;
-  background-image: url('./images/background_image.jpg');
+  // background-image: url('./images/background_image.jpg');
   background-size: contain;
   background-repeat: no-repeat;
 }

@@ -26,9 +26,10 @@ function NavBar() {
 
           <div className="drop-list drop-inactive">
             <Link className='drop-link' to='/portfolio/'>Home</Link>
-            <Link className='drop-link' to='/portfolio/experience'>Experience</Link>
-            <Link className='drop-link' to='/portfolio/education'>Education</Link>
+            {/* <Link className='drop-link' to='/portfolio/experience'>Experience</Link> */}
+            {/* <Link className='drop-link' to='/portfolio/education'>Education</Link> */}
             <Link className='drop-link' to='/portfolio/projects'>Projects</Link>
+            <Link className='drop-link' to='/portfolio/resume'>Resume</Link>
             <hr />
             <a _target='blank' href="https://github.com/gjstephen">GitHub</a>
           </div>
@@ -44,7 +45,7 @@ function NavBar() {
             Home
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink 
             className='nav-link' 
             to='/portfolio/experience'
@@ -59,7 +60,7 @@ function NavBar() {
           >
             Education
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink 
             className='nav-link' 

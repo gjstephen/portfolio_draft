@@ -1,5 +1,5 @@
 .basic-info {
-  display: none;
+  // visibility: visible;
 }
 
 .tile {
@@ -8,7 +8,7 @@
   // display: flex;
   // justify-content: space-around;
   gap: 2rem;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   margin-bottom: 2rem;
   text-align: left;
@@ -51,13 +51,13 @@
   // top: 25%;
   width: 80%;
   margin: 0 auto;
-  margin-top: 5rem;
+  // padding-top: 5rem;
+
+  p {
+    margin-top: 2rem;
+  }
 }
 
-.unhidden {
-  display: block;
-  // width: 80%;
-}
 
 .exit-btn {
   position: absolute;
@@ -66,8 +66,21 @@
   background: none;
   border: none;
   cursor: pointer;
+  font-size: 1.5rem;
 }
 
 .education, .experience {
   margin-bottom: 1rem;
+}
+
+@media (min-width: 400px) {
+  .basic-info {
+    visibility: hidden;
+  }
+}
+
+.unhidden {
+  display: block;
+  visibility: visible;
+  // width: 80%;
 }

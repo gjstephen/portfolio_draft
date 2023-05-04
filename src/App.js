@@ -19,6 +19,11 @@ function App() {
       </header>
 
       <main>
+        {/* <AboutMe />
+        <Projects />
+        <Experience />
+        <Education /> */}
+
         <Routes>
           <Route path="/portfolio" element={<AboutMe />}/>
           <Route path="/portfolio/experience" element={<Experience />}/>

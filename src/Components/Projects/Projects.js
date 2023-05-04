@@ -26,7 +26,7 @@ function Projects() {
 
               <div>
                 <hr />
-                <ul className="list">
+                <ul className="list site-list">
                   <li>
                     <a href={project.siteURL} target="_blank" rel="noreferrer">
                       <button>
